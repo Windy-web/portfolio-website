@@ -72,9 +72,9 @@ li a{
 }
 
 img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
-  display: block;
+ /* display: block;*/
 }
 
 .section-title {
@@ -233,13 +233,15 @@ img {
   right: 0;
   bottom: 0;
   margin-right: 0.1rem;
-  width: 260px;
+  width: 250px;
 }
 
 .home_img img {
   border-radius: 50%;
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.8);
+  width: 95%
 }
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -355,9 +357,10 @@ img {
   .work_img img {
     transition: 1s;
     cursor: pointer;
+    height: auto;
   }
 
-  .work_img:hover {
+  .work_img img:hover {
     transform: scale(1.1);
   }
 
