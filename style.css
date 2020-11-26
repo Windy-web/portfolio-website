@@ -367,7 +367,7 @@ img {
 
   /* Contact */
   .contact_input {
-    width: 100%;
+    width: 80%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi);
     padding: 1rem;
