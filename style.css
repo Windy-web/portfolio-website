@@ -266,6 +266,12 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.about_text {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
 .about_img {
   justify-self: center;
 }
@@ -282,7 +288,7 @@ img {
 }
 
 .skills_subtitle {
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-3)
   }
 
   .section-text {
@@ -297,6 +303,7 @@ img {
     font-weight: var(--font-semi);
     padding: .5rem 1rem;
     margin-bottom: var(--mb-4);
+    margin-top: var(--mb-4);
     border-radius: .5rem;
     box-shadow: 0 4px 25px rgba(14,36,49,.15);
   }
@@ -367,7 +374,7 @@ img {
 
   /* Contact */
   .contact_input {
-    width: 80%;
+    width: 100%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi);
     padding: 1rem;
