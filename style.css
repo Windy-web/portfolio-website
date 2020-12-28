@@ -329,7 +329,7 @@ img {
   }
 
   .skills_css3 {
-    width: 85%;
+    width: 80%;
   }
 
   .skills_javascript {
@@ -340,7 +340,7 @@ img {
     width: 25%;
   }
   .skills_drone {
-    width: 53%;
+    width: 45%;
   }
 
   .skills_img {
@@ -480,7 +480,7 @@ img {
 
     .home_img {
       width: 400px;
-      bottom: 15%;
+      bottom: 10%;
     }
 
     .about_container, .skills_container {
@@ -520,5 +520,39 @@ img {
       bottom: 10%;
       width: 450px;
       margin-top: 4rem;  
+    }
+  }
+
+  @media screen and (max-height: 370px) {
+
+    .home_data {
+      margin-left: 2rem;
+    }
+
+    .home_social {
+      margin-left: 2rem;
+    }
+
+    .home_img img {
+      position: absolute;
+      right: 10%;
+      bottom: 2%;
+      width: 180px;
+      margin-top: 2rem;  
+    }
+
+    .about_img img {
+      width: 200px;
+    }
+  }
+
+  @media screen and (min-width: 390px) {
+
+    .home_img img {
+      position: absolute;
+      right: 10%;
+      bottom: 5%;
+      width: 180px;
+      margin-top: 1rem;
     }
   }
