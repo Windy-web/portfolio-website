@@ -233,7 +233,7 @@ img {
   right: 0;
   bottom: 0;
   margin-right: 0.1rem;
-  width: 250px;
+  width: 400px;
 }
 
 .home_img img {
@@ -481,6 +481,7 @@ img {
     .home_img {
       width: 400px;
       bottom: 10%;
+      right: 10%;
     }
 
     .about_container, .skills_container {
@@ -515,15 +516,15 @@ img {
       margin-right: auto;
     }
 
-    .home_img {
-      right: 10%;
+    .home_img img{
+      right: 20%;
       bottom: 10%;
       width: 450px;
       margin-top: 4rem;  
     }
   }
 
-  @media screen and (max-height: 370px) {
+  @media (orientation: landscape) and (max-width: 825px) {
 
     .home_data {
       margin-left: 2rem;
@@ -538,7 +539,7 @@ img {
       right: 10%;
       bottom: 2%;
       width: 180px;
-      margin-top: 2rem;  
+      margin-top: 0rem;  
     }
 
     .about_img img {
@@ -546,13 +547,14 @@ img {
     }
   }
 
-  @media screen and (min-width: 390px) {
-
+  @media (orientation: portrait) and (min-width: 375px) {
+   
     .home_img img {
       position: absolute;
       right: 10%;
-      bottom: 5%;
-      width: 180px;
-      margin-top: 1rem;
+      bottom: 2%;
+      width: 230px;
+      margin-top: 2rem;  
     }
   }
+
