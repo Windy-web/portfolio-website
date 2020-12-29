@@ -314,6 +314,12 @@ img {
     color: var(--first-color);
   }
 
+  .skills_names img {
+    width: 2rem;
+    margin-right: var(--mb-2);
+    color: var(--first-color);
+  }
+
   .skills_bar {
     position: absolute;
     left: 0;
